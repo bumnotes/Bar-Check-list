@@ -1,0 +1,637 @@
+{
+  "Daily BAR Opening Procedure": {
+    "meta": {
+      "intro_fields": [
+        {
+          "id": "conducted_on",
+          "label": "Conducted on (Date/Time)",
+          "type": "datetime"
+        },
+        {
+          "id": "conducted_by",
+          "label": "Conducted by",
+          "type": "text"
+        }
+      ],
+      "outro_fields": [
+        {
+          "id": "sign_off",
+          "label": "Sign off (signature)",
+          "type": "signature"
+        },
+        {
+          "id": "sign_date",
+          "label": "Date",
+          "type": "date"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "name": "Staff room",
+        "items": [
+          {
+            "id": "sr_coats_bags",
+            "label": "Put outdoor coats and bags in the staff room",
+            "type": "checkbox"
+          },
+          {
+            "id": "sr_phone_locker",
+            "label": "Put mobile phone and personal belongings in locker",
+            "type": "checkbox"
+          },
+          {
+            "id": "sr_pick_radio",
+            "label": "Pick up your radio",
+            "type": "checkbox"
+          },
+          {
+            "id": "sr_collect_till_key",
+            "label": "Collect till key and blue opening cash sheet from locker 60",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Bar",
+        "items": [
+          {
+            "id": "bar_ipad_on",
+            "label": "Turn on the iPad and log in",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_internal_lights",
+            "label": "Turn on all internal lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_tills_on",
+            "label": "Turn on the tills, card machines and printers",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_count_floats",
+            "label": "Count till floats and open tills",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_badge_light_on",
+            "label": "Turn on beer badge light",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_fridge_lights_on",
+            "label": "Turn on fridge lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_remove_clingfilm",
+            "label": "Remove cling film from beer taps",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_screw_nozzles",
+            "label": "Screw on beer nozzles (Guinness has sparkler)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_fill_ice_wells",
+            "label": "Fill ice wells",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_empty_glass_bins",
+            "label": "Empty glass bins",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_taste_ales",
+            "label": "Taste test the ales \u2013 notes",
+            "type": "textarea"
+          },
+          {
+            "id": "bar_taste_wines",
+            "label": "Taste test any wines at 3 days old \u2013 notes",
+            "type": "textarea"
+          },
+          {
+            "id": "bar_water_dispenser",
+            "label": "Fill water dispenser with ice & water, lid not tight; put out glasses",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_check_bookings",
+            "label": "Check iPad booking system for bookings today",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_check_diary",
+            "label": "Check bar diary for notes from yesterday",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Washroom",
+        "items": [
+          {
+            "id": "wash_music_on",
+            "label": "Turn the music on to an appropriate level",
+            "type": "checkbox"
+          },
+          {
+            "id": "wash_coffee_on",
+            "label": "Turn on the coffee machine and grinder",
+            "type": "checkbox"
+          },
+          {
+            "id": "wash_rinse_filters_mon",
+            "label": "Rinse coffee filter holders in cold water (MONDAYS ONLY)",
+            "type": "checkbox"
+          },
+          {
+            "id": "wash_drain_glasswash",
+            "label": "Drain the glasswash",
+            "type": "checkbox"
+          },
+          {
+            "id": "wash_wipe_glasswash",
+            "label": "Thoroughly wipe out the glasswash",
+            "type": "checkbox"
+          },
+          {
+            "id": "wash_filters_back",
+            "label": "Put filters back in glasswash; turn on when a tray is ready",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Cellar",
+        "items": [
+          {
+            "id": "cellar_lights_on",
+            "label": "Turn on lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_postmix_gas_on",
+            "label": "Turn on post-mix gas at the gas bottle",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_postmix_soda_on",
+            "label": "Turn on post-mix Soda Machine",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_syrup_levels",
+            "label": "Check post-mix syrup levels \u2013 change if empty",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_air_compressor_on",
+            "label": "Turn on Air Compressor",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_beer_cooler_on",
+            "label": "Turn on Beer Cooler",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_ice_machine_on_thu",
+            "label": "Turn on Ice Machine (THURSDAYS ONLY)",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_co2_on",
+            "label": "Turn on CO2 at the gas bottle",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_mixed_gas_on",
+            "label": "Turn on Mixed Gas at the gas bottle",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_cooling_on",
+            "label": "Turn on Cellar Cooling",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_fob_levels",
+            "label": "Check all keg fob detector levels and adjust if necessary",
+            "type": "checkbox"
+          },
+          {
+            "id": "cellar_cask_next",
+            "label": "Cask ale \u2013 what needs doing next? And when? (notes)",
+            "type": "textarea"
+          },
+          {
+            "id": "cellar_cask_connections",
+            "label": "Check cask ale connections for drips / hop filter / tightening",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Outside",
+        "items": [
+          {
+            "id": "out_ash_trays",
+            "label": "Put out ash trays on every table",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_tidy_chairs",
+            "label": "Tidy chairs and tables",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_umbrellas_straight",
+            "label": "Stand umbrellas up straight",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_sweep_garden",
+            "label": "Sweep beer garden floor (esp. covered area)",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_a_board_garden",
+            "label": "Put out beer garden A-board sign (appropriate for today?)",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_a_board_front",
+            "label": "Put out front door A-board sign (appropriate for today?)",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_sweep_pavement",
+            "label": "Sweep front pavement for cigarettes/other litter",
+            "type": "checkbox"
+          },
+          {
+            "id": "out_put_olive_trees",
+            "label": "Put out olive trees",
+            "type": "checkbox"
+          }
+        ]
+      }
+    ]
+  },
+  "Daily BAR Closing Procedure": {
+    "meta": {
+      "intro_fields": [
+        {
+          "id": "conducted_on",
+          "label": "Conducted on (Date/Time)",
+          "type": "datetime"
+        },
+        {
+          "id": "conducted_by",
+          "label": "Conducted by",
+          "type": "text"
+        }
+      ],
+      "outro_fields": [
+        {
+          "id": "anything_to_report",
+          "label": "Anything to report to management",
+          "type": "textarea"
+        },
+        {
+          "id": "sign_off",
+          "label": "Sign off (signature)",
+          "type": "signature"
+        },
+        {
+          "id": "sign_date",
+          "label": "Date",
+          "type": "date"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "name": "Bar",
+        "items": [
+          {
+            "id": "bar_check_toilets",
+            "label": "Check toilets: immediate attention needed? (sick, poop, sleeping customer...)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_wipe_tables",
+            "label": "Wipe & tidy all customer tables; chairs/stools neat",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_polish_cutlery",
+            "label": "Polish cutlery and wrap in napkins",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_wipe_tops",
+            "label": "Wipe down front bar and back bar tops",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_wash_equipment",
+            "label": "Wash cocktail shakers, strainers, spirit measures etc.",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_empty_clean_icewells",
+            "label": "Empty and clean ice wells",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_empty_clean_speedrails",
+            "label": "Empty and clean speed rails",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_cask_tap_shelf",
+            "label": "Clean shelf around cask ale taps (remove glasses & kit)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_empty_water_dispenser",
+            "label": "Empty the water dispenser & put through glasswash",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_day_dot_wines",
+            "label": "Day dot wines (today's date)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_pump_wines",
+            "label": "Pump wines with VacuVin",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_restock_fridges",
+            "label": "Restock the fridges",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_restock_crisps",
+            "label": "Restock the crisps",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_remove_clean_beer_nozzles",
+            "label": "Remove beer nozzles, clean in warm soapy water, leave to air dry",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_taps_arch",
+            "label": "Clean beer tap handles, arch and taps",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clingfilm_nozzle_threads",
+            "label": "Cling film beer nozzle threads",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_glasswash_drip_trays",
+            "label": "Put drip trays through glasswash (incl. Pepsi gun)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_pepsi_nozzle",
+            "label": "Clean Pepsi gun nozzle and put back",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_wash_rubber_mats",
+            "label": "Put black rubber mats through glasswash; hang to dry (coffee ones by hand)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_black_trays",
+            "label": "Clean black trays in kitchen sink (spray tap + soapy water)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_badge_light_off",
+            "label": "Turn off beer badge light",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_wipe_fridge_exteriors",
+            "label": "Wipe fridge exteriors and edges",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_fridge_lights_off",
+            "label": "Turn off fridge lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_plug_in_fly_zapper",
+            "label": "Plug in fly zapper on table 1",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_empty_all_bins",
+            "label": "Empty all bins into outside bins (quietly!); glass on floor for AM; replace bags",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_bring_in_a_board_olives",
+            "label": "Bring in front door A-board sign & olive trees",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_check_window_locks",
+            "label": "Check all window locks are secure",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_cash_up",
+            "label": "Cash up tills; put printouts, cash, receipts in End of Day envelope",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_till_screens",
+            "label": "Clean the till screens (glass cleaner)",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_clean_card_printers",
+            "label": "Clean the card machines and printers",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_turn_off_tills",
+            "label": "Turn off tills, card machines and printers",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_charge_card_machines",
+            "label": "Put the card machines on charge",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_lock_rear_door",
+            "label": "Lock and bolt the rear customer door",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_lock_front_doors",
+            "label": "Lock and bolt the front customer doors",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_write_bar_diary",
+            "label": "Write any notes in the bar diary for tomorrow",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_turn_off_external_lights",
+            "label": "Turn off all external lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_turn_off_internal_lights",
+            "label": "Turn off all internal lights",
+            "type": "checkbox"
+          },
+          {
+            "id": "bar_plug_ipad_charge",
+            "label": "Plug in the iPad to charge and log out",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Beer Garden",
+        "items": [
+          {
+            "id": "bg_empty_clean_ashtrays",
+            "label": "Empty and clean ash trays",
+            "type": "checkbox"
+          },
+          {
+            "id": "bg_spray_wipe_tables",
+            "label": "Spray & wipe all outside tables; ensure neatly arranged",
+            "type": "checkbox"
+          },
+          {
+            "id": "bg_bring_in_a_board",
+            "label": "Bring in beer garden A-board sign",
+            "type": "checkbox"
+          },
+          {
+            "id": "bg_biffa_bins",
+            "label": "Put BIFFA bins out if required (Weds glass; Thurs both big bins)",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Toilets (Mon, Tue, Thu nights only)",
+        "items": [
+          {
+            "id": "toilet_roll",
+            "label": "Ensure there is a toilet roll in the holder",
+            "type": "checkbox"
+          },
+          {
+            "id": "flush_toilets",
+            "label": "Flush toilets if required",
+            "type": "checkbox"
+          },
+          {
+            "id": "sweep_floors",
+            "label": "Sweep floors",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "name": "Washroom",
+        "items": [
+          {
+            "id": "wm_deep_clean_coffee",
+            "label": "Deep clean coffee machine (see wall guide)",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_soak_filter_holders_sun",
+            "label": "Soak coffee filter holders in Puly Caff (SUNDAYS ONLY)",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_turn_off_coffee",
+            "label": "Turn off the coffee machine",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_clean_grinder_ext",
+            "label": "Clean the coffee grinder external areas",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_clean_grinder_tray",
+            "label": "Clean the coffee grinder tray",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_turn_off_grinder",
+            "label": "Turn off the coffee grinder",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_refill_supplies",
+            "label": "Refill tea bags, coffee beans, sugar, straws",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_restock_milk",
+            "label": "Restock milk fridge = 4 regular + 2 oat",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_bring_crockery",
+            "label": "Bring round all clean crockery from waiters station",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_clean_waiters_shelves",
+            "label": "Clean waiters station shelves (spray & wipe)",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_tidy_washroom_shelves",
+            "label": "Tidy washroom shelves",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_dismantle_glasswash",
+            "label": "Dismantle the glasswash",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_turn_off_glasswash",
+            "label": "Turn off glasswash; leave door open to dry",
+            "type": "checkbox"
+          },
+          {
+            "id": "wm_replace_coffee_jugs",
+            "label": "Empty and replace coffee jugs on the top",
+            "type": "checkbox"
+          }
+        ]
+      }
+    ]
+  }
+}

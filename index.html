@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bar Checklists</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Bar Checklists</h1>
+    <button id="installBtn" class="ghost" hidden>Install</button>
+  </header>
+  <nav id="tabs"></nav>
+  <main id="content" aria-live="polite"></main>
+  <footer>
+    <div class="row">
+      <button id="resetDay">Reset today</button>
+      <button id="exportData" class="ghost">Export</button>
+      <label class="importLbl ghost">Import <input type="file" id="importData" accept="application/json"></label>
+    </div>
+    <p class="hint">Tap fields to complete. Progress saves locally per day.</p>
+  </footer>
+  <template id="checklistTpl">
+    <section>
+      <form class="sheet" autocomplete="off"></form>
+    </section>
+  </template>
+  <template id="sigTpl">
+    <div class="signature">
+      <canvas width="600" height="200"></canvas>
+      <div class="row">
+        <button type="button" class="mini ghost clear">Clear</button>
+        <button type="button" class="mini saveSig">Save</button>
+      </div>
+    </div>
+  </template>
+</body>
+</html>
